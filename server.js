@@ -9,6 +9,6 @@ server.get('/', (req, res) => {
   res.json({server: 'up'});
 });
 
-server.use('/api/project', projectRouter);
+server.use('/api/projects', projectRouter);
 
 module.exports = server;
